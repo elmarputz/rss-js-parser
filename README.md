@@ -1,2 +1,4 @@
 # rss-js-parser
-Demo for RSS parser for javascript
+Demo RSS parser for javascript
+
+using jQuery 3, based on fetch library and CORS proxy 'api.allorigins.win' to surpass CORS issues
