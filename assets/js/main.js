@@ -1,5 +1,5 @@
 $(
-    $.getJSON('http://api.allorigins.win/get?url=https%3A//top.fh-ooe.at/events/feed/&callback=?', function(data) {
+    $.getJSON('https://api.allorigins.win/get?url=https%3A//top.fh-ooe.at/events/feed/&callback=?', function(data) {
         // $('#output').html(data.contents);
         xmlContent = $.parseXML(data.contents);
         $(xmlContent)
